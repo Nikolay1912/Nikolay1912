@@ -160,7 +160,8 @@
 	}
 
 	.footer .wrap-footer {
-		flex-direction: column;
+		display: grid;
+		grid-template-columns: auto;
 	}
 
 	.wrap-footer .about-shop,
