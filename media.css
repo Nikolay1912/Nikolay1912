@@ -56,42 +56,6 @@
 
 
 @media screen and (max-width: 768px) {
-	.new__collection .collection__clock {
-		margin-right: 0;
-		margin-bottom: 20px;
-	}
-
-	.new__collection .collection__clock__title,
-	.new__collection .collection__clock__price {
-		text-align: center;
-	}
-	
-	.new__collection .collection__clocks {
-		flex-direction: column;
-	}
-	
-	body .new-arrivals {
-		min-height: 2000px;
-	}
-
-	.wrap-new-arrivals .new-arrivals-collection__clocks {
-		grid-template-columns: auto auto;
-	}
-
-	.our-brands .wrap-brands {
-		display: grid;
-		grid-template-columns: auto auto;
-		width: 600px;
-		margin: auto;
-	}
-}
-
-
-@media screen and (max-width: 400px) {
-	body {
-		position: relative;
-	}
-
 	.wrap-contacts-enter .contacts {
 		display: none;
 	}
@@ -124,7 +88,61 @@
 	.nav .nav__list {
 		flex-direction: column;
 	}
-		
+
+	.new__collection .collection__clock {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.new__collection .collection__clock__title,
+	.new__collection .collection__clock__price {
+		text-align: center;
+	}
+	
+	.new__collection .collection__clocks {
+		flex-direction: column;
+	}
+	
+	body .new-arrivals {
+		min-height: 2000px;
+	}
+
+	.wrap-new-arrivals .new-arrivals-collection__clocks {
+		grid-template-columns: auto auto;
+	}
+
+	.our-brands .wrap-brands {
+		display: grid;
+		grid-template-columns: auto;
+		max-width: 320px;
+		margin: auto;
+	}
+
+	.footer .wrap-footer {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+	}
+
+	.wrap-footer .about-shop {
+		width: auto;
+	}
+
+	.wrap-footer .categories {
+		width: auto;
+	}
+
+	.mailing__input {
+		max-width: 150px;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	body {
+		position: relative;
+	}
+
 	.wrap-look__collection .look__collection__text {
 		width: auto;
 	}

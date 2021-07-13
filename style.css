@@ -445,12 +445,11 @@ body {
 }
 
 .categories-list {
-
+	list-style: none;
 }
 
 .categories-list__item {
 	display: inline-block;
-	list-style: none;
 	margin-right: 20px;
 	margin-bottom: 40px;
 }
